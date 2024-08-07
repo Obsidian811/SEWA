@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS.css">
+    <title>Library</title>
+    <header></header>
+</head>
+<body>
+    <div class="">
+        <nav>
+            <h1>
+                <a href="#Home" class="dropdown">Home</a>
+            
+            <div class="dropdown">
+                <a href="#About" class="">About</a>
+                <div class="dropdown-content">
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#Books" class="">Books</a>
+                <div class="dropdown-content">
+                    <a href="">Textbooks</a><hr>
+                    <a href="">Reference books</a><hr>
+                    <a href=""></a><hr>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#Papers" class="">Papers</a>
+                <div class="dropdown-content">
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="" class=""></a>
+                <div class="dropdown-content">
+
+                </div>
+            </div>
+            </h1>
+        </nav>
+    </div>
+</body>
+</html>
