@@ -1,36 +1,59 @@
-header{
-    background-color: rgb(64, 64, 241);
+.header{
+    background-color: rgb(53, 32, 32);
+    opacity: 60%;
     height: 60px;
 }
 body{
-    background: url("https://your-library-background-image-url.com/image.jpg");
-    background-size: 100%;
+    background: url("https://th.bing.com/th/id/OIP.R93Or3NLjhihyni2_xRbFwHaE8?rs=1&pid=ImgDetMain");
+    background-size: 150%;
     background-repeat: no-repeat;
     background-position: center;
 }
-nav{
-    color: rgb(40, 40, 228);
-    display: block;
-    float: right;
-    border: 2px;
+.bg-image{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    position: absolute;
+    height: 100vh;
 }
-.dropbtn{
-
+.component{
+    color: #ffffff;
+}
+.nav{
+    display: block;
+    float: left;
+    border: 2px;
 }
 .dropdown{
     padding-right: 60px;
     position: relative;
     display: inline-block;
+    color: #ffffff;
 }
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 200%;
+    background-color: #ffffff;
+    min-width: 150%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
 }
 .dropdown:hover .dropdown-content{
     display: block;
+}
+.topnav{
+    text-align: center;
+    margin-top: 17%;
+}
+.topnav input[type=text]{
+    position: center;
+    padding: 6px;
+    border: 2%;
+    border-radius: 25px;
+    margin-top: 8px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+.content{
+    color: black;
 }

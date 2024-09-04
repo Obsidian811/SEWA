@@ -6,41 +6,49 @@
     <link rel="stylesheet" href="CSS.css">
     <title>Library</title>
     <header></header>
+    <div>
+        <h2>
+            <div class="dropdown">
+                <a class="dropdown">Home</a>
+                <div class="dropdown-content">
+                    <a href=""></a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="component">About</a>
+            <div class="dropdown-content">
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="component">Year</a>
+                <div class="dropdown-content">
+                    <a href="http://127.0.0.1:5500/Book%20Catalogue/Years/FE.html">FE</a><hr>
+                    <a href="http://127.0.0.1:5500/Book%20Catalogue/Years/SE.html">SE</a><hr>
+                    <a href="http://127.0.0.1:5500/Book%20Catalogue/Years/TE.html">TE</a><hr>
+                    <a href="http://127.0.0.1:5500/Book%20Catalogue/Years/BE.html">BE</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="component">Papers</a>
+                <div class="dropdown-content">
+
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="component"></a>
+                <div class="dropdown-content">
+
+                </div>
+            </div>
+        </h2> 
+    </div>
 </head>
 <body>
-    <div class="">
-        <nav>
-            <h1>
-                <a href="#Home" class="dropdown">Home</a>
-            
-            <div class="dropdown">
-                <a href="#About" class="">About</a>
-                <div class="dropdown-content">
-
-                </div>
-            </div>
-            <div class="dropdown">
-                <a href="#Books" class="">Books</a>
-                <div class="dropdown-content">
-                    <a href="">Textbooks</a><hr>
-                    <a href="">Reference books</a><hr>
-                    <a href=""></a><hr>
-                </div>
-            </div>
-            <div class="dropdown">
-                <a href="#Papers" class="">Papers</a>
-                <div class="dropdown-content">
-
-                </div>
-            </div>
-            <div class="dropdown">
-                <a href="" class=""></a>
-                <div class="dropdown-content">
-
-                </div>
-            </div>
-            </h1>
-        </nav>
+    <div class="topnav">
+        <input type="text" placeholder="Search...">
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
