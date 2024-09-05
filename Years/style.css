@@ -1,0 +1,10 @@
+.header{
+    background-color: rgb(53, 32, 32);
+    opacity: 60%;
+    height: 60px;
+}
+.nav{
+    background-color: rgb(53, 32, 32);
+    position: relative;
+    display: inline-block;
+}
