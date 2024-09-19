@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>Search Bar Example</title>
+    <link rel="stylesheet" 
+          type="text/css" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <input id="searchbar" 
+               onkeyup="search_keywords()" 
+               type="text" name="search" 
+               placeholder="Search books..">
+
+        <ul id='list'>
+            <li class="keywords">Engineering Graphics</li>
+            <li class="keywords">ASIC Verification</li>
+            <li class="keywords">Mastering Cloud Computing</li>
+            <li class="keywords">Database Management Systems </li>
+            <li class="keywords">Semiconductor Devices</li>
+        </ul>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
