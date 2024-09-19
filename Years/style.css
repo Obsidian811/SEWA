@@ -8,3 +8,23 @@
     position: relative;
     display: inline-block;
 }
+.dropdown{
+    padding-right: 60px;
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 150%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.topnav{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+}
