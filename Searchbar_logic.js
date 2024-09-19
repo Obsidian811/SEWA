@@ -1,4 +1,13 @@
-
+const keyword=[
+    {name:'Engineering Graphics'},
+    {name:'ASIC Verification'},
+    {name:'Mastering Cloud Computing'},
+    {name:'Database Management Systems'},
+    {name:'Semiconductor Devices'}
+]
+whateverElement.addEventListener("editing type" ,() =>{
+}
+                                )
 function search_keyword() 
 {
     let input = document.getElementById('searchbar').value
