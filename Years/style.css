@@ -3,6 +3,12 @@
     opacity: 60%;
     height: 60px;
 }
+body{
+    background: url("https://th.bing.com/th/id/OIP.R93Or3NLjhihyni2_xRbFwHaE8?rs=1&pid=ImgDetMain");
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .nav{
     background-color: rgb(53, 32, 32);
     position: relative;
@@ -23,8 +29,14 @@
     padding: 12px 16px;
     z-index: 1;
 }
+.dropdown:hover .dropdown-content{
+    display: block;
+}
 .topnav{
     position: absolute;
     right: 0;
     display: inline-block;
+}
+.component{
+    color: #ffffff;
 }
